@@ -10,6 +10,14 @@ using System.Windows.Forms;
 
 namespace Ksiegarnia
 {
+
+    class MyClass
+    {
+        void Method()
+        {
+            System.Console.WriteLine("hello");
+        } 
+    }
     public partial class Form1 : Form
     {
         public Form1()
