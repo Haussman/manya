@@ -18,6 +18,12 @@ namespace Ksiegarnia
             System.Console.WriteLine("hello");
         } 
     }
+
+    abstract class Arm
+    {
+        int i = 23;
+        string ui = "arr";
+    }
     public partial class Form1 : Form
     {
         public Form1()
